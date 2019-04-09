@@ -68,7 +68,7 @@ This is because when there is a fresh page load for a `/todos/42`, the server lo
  });
 ```
 
-If you’re using [Apache HTTP Server](https://httpd.apache.org/), you need to create a `.htaccess` file in the `public` folder that looks like this:
+If you’re using [Apache HTTP Server](https://httpd.apache.org/), you need to create a `.htaccess` file in the `public` folder [PUBLIC FOLDER OF THE REACT BUILD OR OF THE APACHE SERVER?!] that looks like this:
 
 ```
     Options -MultiViews
